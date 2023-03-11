@@ -20,7 +20,7 @@ const Header = () => {
                         {MenuItems}
                     </ul>
                 </div>
-                <img className='lg:h-[150px] ' src={img} alt="" />
+                <img className='h-[130px] lg:h-[150px] ' src={img} alt="" />
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu-horizontal px-1">
@@ -28,7 +28,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className='btn cbtn1'><Link>Login</Link></button>
+            <Link to='/login'><button className='btn cbtn1'>Login</button></Link>
             </div>
         </div>
     );

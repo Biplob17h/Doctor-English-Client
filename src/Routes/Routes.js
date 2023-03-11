@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import UpdateParentsInfo from "../Componentes/UpdateParentsInfo";
 import Main from "../Layout/Main";
 import AboutUs from "../Pages/AboutUs/AboutUs/AboutUs";
 import Login from "../Pages/Authentication/Login/Login";
@@ -30,6 +31,10 @@ const routes = createBrowserRouter([
             {
                 path:'/register',
                 element:<Register></Register>
+            },
+            {
+                path:'/parents',
+                element:<UpdateParentsInfo></UpdateParentsInfo>
             }
         ]
     }

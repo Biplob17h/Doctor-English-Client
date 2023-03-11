@@ -1,16 +1,25 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import SliderLogin from './SliderLogin';
+import React, { useContext, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { AuthContext } from '../Context/UserContext';
 
-const Login = () => {
+import SliderLogin from '../Pages/Authentication/Login/SliderLogin';
+
+
+
+const UpdateParentsInfo = () => {
+    const {} = useContext(AuthContext)
+    const [error, setError] = useState('')
+    const navigate = useNavigate()
     const handleOnSubmit = event =>{
+        setError('')
         event.preventDefault();
         const from = event.target;
+        const name = from.name.value;
         const email = from.email.value;
         const password = from.password.value;
         
-        
     }
+   
     return (
         <div className='flex flex-col-reverse lg:flex-row mx-auto lg:ml-60'>
             <div className='w-1/2'>
@@ -18,6 +27,12 @@ const Login = () => {
                     <div className="hero-content w-[400px] flex-col lg:flex-row-reverse">
                         <div className="card flex-shrink-0 w-full ">
                             <form onSubmit={handleOnSubmit} className="card-body">
+                                <div className="form-control">
+                                    <label className="label">
+                                        <span className="label-text">Name</span>
+                                    </label>
+                                    <input type="text" name='name' placeholder="name" className="input input-bordered input-success" required/>
+                                </div>
                                 <div className="form-control">
                                     <label className="label">
                                         <span className="label-text">Email</span>
@@ -29,17 +44,14 @@ const Login = () => {
                                         <span className="label-text">Password</span>
                                     </label>
                                     <input type="password" name='password' placeholder="password" className="input input-bordered input-success" required/>
-                                    <label className="label">
-                                        <Link href="#" className="label-text-alt link link-hover">Forgot password?</Link>
-                                    </label>
-
                                 </div>
+                                <p className='text-red-600'>{error}</p>
 
                                 <div className="form-control mt-3">
                                     <label className="label">
-                                        <h1 className="label-text-alt mb-2 link link-hover">Don't have an account? <span className='font-bold'><Link to='/register'>Sign Up</Link></span></h1>
+                                        <h1 className="label-text-alt mb-2 link link-hover">Already have an account? <span className='font-bold'><Link to='/login'>Log in</Link></span></h1>
                                     </label>
-                                    <button className="btn cbtn3">Login</button>
+                                    <button className="btn cbtn3">Sing Up</button>
                                 </div>
                             </form>
                         </div>
@@ -53,4 +65,5 @@ const Login = () => {
     );
 };
 
-export default Login;
+
+export default UpdateParentsInfo;

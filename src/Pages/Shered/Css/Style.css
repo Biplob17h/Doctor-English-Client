@@ -5,6 +5,13 @@
     background-color: #1DAB55;
     border: none;
 }
+.cbtn3{
+    background-color: #1DAB55;
+    border: none;
+}
+.cbtn3:hover{
+    background-color: #16753c;
+}
 .cbtn1:hover{
     background-color: #1DAB55;
     border: none;
@@ -12,5 +19,67 @@
 .cbtn2:hover{
     color: red;
 }
+.cbor1{
+    border: 1px solid red;
+}
+.cbor2:hover{
+    border: 1px solid #1DAB55;
+}
 
+.cimg1{
+    background-image: url();
+    
+}
+.show_bg_2{
+    background-image:
+    linear-gradient(to left, rgb(31, 31, 32), rgba(125, 160, 124, 0.73)),
+    url('https://i.postimg.cc/DwNjs7N6/teachers.jpg');
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: 100vw 300vh;
+
+}
+.ccard:hover{
+    margin-top: 7px;
+    border: 1px solid #1DAB55;
+}
+.accimg1{
+    background-image:
+    linear-gradient(to left, rgb(31, 31, 32), rgba(125, 160, 124, 0.73)),
+    url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.seekpng.com%2Fipng%2Fu2q8y3t4r5w7t4y3_return-to-the-top-page-footer%2F&psig=AOvVaw1Iv0krFv50lkzFz0ZqVTIY&ust=1678270712788000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCy5tHsyv0CFQAAAAAdAAAAABAE');
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: 100vw 120vh;
+    border-radius: 10px;
+}
+.accimg2{
+    background-image:
+    linear-gradient(to left, rgb(159, 184, 165) 0%, rgba(153, 142, 142, 0.658) 5%),
+    url('https://i.postimg.cc/tT2R9P99/learning-platform-bg.jpg');
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: 100vw 200vh;
+    border-radius: 10px;
+}
+.ctext2{
+    color: #050505bd;
+}
+.cbg1{
+    background-color: rgb(202, 87, 87);
+}
+.cbg2{
+    background-color: rgb(223, 215, 142);
+}
+.cbg3{
+    background-color: rgb(116, 180, 180);
+}
+.cbg4{
+    background-color: rgb(93, 165, 99);
+}
 

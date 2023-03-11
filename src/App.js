@@ -6,7 +6,7 @@ import routes from './Routes/Routes';
 
 function App() {
   return (
-    <div className="max-w-screen-xl mx-auto relative">
+    <div className="max-w-screen-[500px] lg:max-w-screen-xl mx-auto relative">
       <RouterProvider router={routes}></RouterProvider>
     </div>
   );
