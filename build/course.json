@@ -1,0 +1,27 @@
+[
+    {
+        "_id":1,
+        "name": "SSC 1st and 2nd year",
+        "img": "https://i.postimg.cc/C59B7fHm/DALL-E-2023-03-07-12-09-41-educational-bag-png-ssc-init.png",
+        "det": " Reprehenderit sint aspernatur ad praesentium hic quo asperiores inventore rerum, aliquid, consectetur placeat natus fugiat corrupti magnam accusantium, nemo dolorum rem iure."
+    },
+    {
+        "_id":2,
+        "name": "HSC 1st and 2nd year",
+        "img": "https://i.postimg.cc/6pgRcgzB/DALL-E-2023-03-07-11-59-05.png",
+        "det": " Reprehenderit sint aspernatur ad praesentium hic quo asperiores inventore rerum, aliquid, consectetur placeat natus fugiat corrupti magnam accusantium, nemo dolorum rem iure."
+    },
+    {
+        "_id":3,
+        "name": "HSC final preparation",
+        "img": "https://i.postimg.cc/hPrhhwN2/DALL-E-2023-03-07-12-15-55-a-student-stduying-hard-art.png",
+        "det": " Reprehenderit sint aspernatur ad praesentium hic quo asperiores inventore rerum, aliquid, consectetur placeat natus fugiat corrupti magnam accusantium, nemo dolorum rem iure."
+    },
+    {
+        "_id":4,
+        "name": "Admission",
+        "img": "https://i.postimg.cc/Z5QftfYq/DALL-E-2023-03-07-12-18-01-a-student-stduying-hard-art-and-dreaming-about-University.png",
+        "det": " Reprehenderit sint aspernatur ad praesentium hic quo asperiores inventore rerum, aliquid, consectetur placeat natus fugiat corrupti magnam accusantium, nemo dolorum rem iure."
+    }
+    
+]
