@@ -6,6 +6,7 @@ const SingleComment = ({comment}) => {
         <div className="card w-96 ccard h-96 text-start text-black">
             <div className="card-body">
                 <div className='flex'>
+                    
                     <VscTerminalLinux className='text-2xl' />
                     <VscTerminalLinux className='text-2xl' />
                 </div>

@@ -12,7 +12,7 @@ const Comment = () => {
             .then(res => res.json())
             .then(data => setComments(data))
     }, [])
-    console.log(comments)
+    
 
     const settings = {
         dots: true,
